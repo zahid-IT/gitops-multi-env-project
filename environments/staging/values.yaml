@@ -1,3 +1,3 @@
 replicaCount: 2
 image:
-  tag: "staging"
+  tag: "1.0"
