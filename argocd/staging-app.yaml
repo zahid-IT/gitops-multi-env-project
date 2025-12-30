@@ -11,10 +11,10 @@ spec:
     path: helm/flask-app
     helm:
       valueFiles:
-        - ../../environments/dev/values.yaml
+        - ../../environments/staging/values.yaml
   destination:
     server: https://kubernetes.default.svc
-    namespace: dev
+    namespace: staging
   syncPolicy:
     automated:
       prune: true
